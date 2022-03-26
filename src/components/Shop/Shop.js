@@ -5,7 +5,6 @@ import Cart from "../Cart/Cart";
 import Questions from "../Questions/Questions";
 const Shop = () => {
     const [products, setProducts] = useState([]);
-    /* console.log(products) */
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -29,8 +28,8 @@ const Shop = () => {
                         <Questions></Questions>
                     </div>
                 </div>
-                <div className="col-12 col-md-4 col-lg-3 text-start cart">
-                    <Cart cart={cart}></Cart>
+                <div className=" col-12 col-md-4 col-lg-3 text-start cart">
+                    <Cart key={cart} cart={cart} products={products}></Cart>
                 </div>
             </div>
         </div>
