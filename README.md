@@ -1,6 +1,6 @@
 # Bookstore Jones
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Bookstore Jones](https://bookstore-jones.netlify.app/).
 
 ## Available Scripts
 
