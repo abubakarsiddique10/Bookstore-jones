@@ -4,7 +4,7 @@ import Shop from './components/Shop/Shop';
 function App() {
   return (
     <div className="App">
-      <h1>Bright Ideas Bookstore</h1>
+      <h1>Bookstore Jones</h1>
       <Shop></Shop>
     </div>
   );
